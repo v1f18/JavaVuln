@@ -1,0 +1,43 @@
+server:
+  port: 8080
+  request:
+    maxBodySize: 2048mb
+    maxHeaderSize: 20mb
+
+project:
+  sqlPrint: false
+  beanPackage: com.cym.model
+  home: D:\Java_Study_Things\JavaVuln\nginWebUI\nginxWebUI-3.4.8
+  findPass: false
+  
+solon:
+  app:
+    name: nginxWebUI
+  view:
+    mapping:
+      html: FreemarkerRender
+  logging:
+    logger:
+      "io.undertow":
+        level: "WARN"
+      "org.xnio":
+        level: "WARN"
+      "o.xnio":
+        level: "WARN"
+      "com.zaxxer.hikari":
+        level: "WARN"
+      "org.jboss":
+        level: "WARN"
+    appender:
+      file:
+        name: ${project.home}/log/${solon.app.name}
+        level: INFO
+        maxFileSize: "100 MB"
+        maxHistory: "7"
+spring:
+  database:
+    type: h2
+  datasource:
+    url:
+    username:
+    password:

@@ -1,0 +1,216 @@
+INFO  2023-06-30 23:08:56.288 [-main][*][o.noear.solon.Solon]: 
+App: Plugin starting
+INFO  2023-06-30 23:08:56.374 [-main][*][o.noear.solon.Solon]: 
+Session: Local session state plugin is loaded
+INFO  2023-06-30 23:08:56.540 [-main][*][o.noear.solon.Solon]: 
+View: load: FreemarkerRender
+INFO  2023-06-30 23:08:56.540 [-main][*][o.noear.solon.Solon]: 
+View: load: org.noear.solon.view.freemarker.FreemarkerRender
+INFO  2023-06-30 23:08:56.541 [-main][*][o.noear.solon.Solon]: 
+View: mapping: .ftl=FreemarkerRender
+INFO  2023-06-30 23:08:56.551 [-main][*][o.noear.solon.Solon]: 
+App: Bean scanning
+INFO  2023-06-30 23:08:56.955 [-main][*][o.noear.solon.Solon]: 
+View: mapping: .html=FreemarkerRender
+INFO  2023-06-30 23:08:56.958 [-main][*][o.noear.solon.Solon]: 
+View: mapping: @json=StringSerializerRender#SnackSerializer
+INFO  2023-06-30 23:08:56.958 [-main][*][o.noear.solon.Solon]: 
+View: mapping: @type_json=StringSerializerRender#SnackSerializer
+INFO  2023-06-30 23:08:56.960 [-main][*][o.noear.solon.Solon]: 
+Server:main: Undertow 2.2.17(undertow)
+INFO  2023-06-30 23:08:57.630 [-main][*][o.noear.solon.Solon]: 
+Server:main: undertow: Started @670ms
+INFO  2023-06-30 23:09:00.077 [-main][*][c.c.c.InitConfig]: 
+                  _              _       __       __     __  __ ____
+   ____   ____ _ (_)____   _  __| |     / /___   / /_   / / / //  _/
+  / __ \ / __ `// // __ \ | |/_/| | /| / // _ \ / __ \ / / / / / /  
+ / / / // /_/ // // / / /_>  <  | |/ |/ //  __// /_/ // /_/ /_/ /   
+/_/ /_/ \__, //_//_/ /_//_/|_|  |__/|__/ \___//_.___/ \____//___/   
+       /____/                                                       
+       
+nginxWebUI 3.4.8
+
+INFO  2023-06-30 23:09:00.080 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=4379ms pid=10736 v=2.2.7
+ERROR 2023-06-30 23:10:19.737 [-XNIO-1 task-1][*][o.s.o.w.WindowsOperatingSystem]: 
+AdjustTokenPrivileges failed. Error: 1300
+INFO  2023-06-30 23:25:28.472 [-Thread-5][*][o.noear.solon.Solon]: 
+Server:main: undertow: Has Stopped undertow 2.1/2.2.7
+INFO  2023-06-30 23:25:50.092 [-main][*][o.noear.solon.Solon]: 
+App: Plugin starting
+INFO  2023-06-30 23:25:50.197 [-main][*][o.noear.solon.Solon]: 
+Session: Local session state plugin is loaded
+INFO  2023-06-30 23:25:50.374 [-main][*][o.noear.solon.Solon]: 
+View: load: FreemarkerRender
+INFO  2023-06-30 23:25:50.374 [-main][*][o.noear.solon.Solon]: 
+View: load: org.noear.solon.view.freemarker.FreemarkerRender
+INFO  2023-06-30 23:25:50.374 [-main][*][o.noear.solon.Solon]: 
+View: mapping: .ftl=FreemarkerRender
+INFO  2023-06-30 23:25:50.386 [-main][*][o.noear.solon.Solon]: 
+App: Bean scanning
+INFO  2023-06-30 23:25:50.887 [-main][*][o.noear.solon.Solon]: 
+View: mapping: .html=FreemarkerRender
+INFO  2023-06-30 23:25:50.889 [-main][*][o.noear.solon.Solon]: 
+Server:main: Undertow 2.2.17(undertow)
+INFO  2023-06-30 23:25:51.697 [-main][*][o.noear.solon.Solon]: 
+Server:main: undertow: Started @808ms
+INFO  2023-06-30 23:25:51.698 [-main][*][o.noear.solon.Solon]: 
+View: mapping: @json=StringSerializerRender#SnackSerializer
+INFO  2023-06-30 23:25:51.699 [-main][*][o.noear.solon.Solon]: 
+View: mapping: @type_json=StringSerializerRender#SnackSerializer
+INFO  2023-06-30 23:25:54.769 [-main][*][c.c.c.InitConfig]: 
+                  _              _       __       __     __  __ ____
+   ____   ____ _ (_)____   _  __| |     / /___   / /_   / / / //  _/
+  / __ \ / __ `// // __ \ | |/_/| | /| / // _ \ / __ \ / / / / / /  
+ / / / // /_/ // // / / /_>  <  | |/ |/ //  __// /_/ // /_/ /_/ /   
+/_/ /_/ \__, //_//_/ /_//_/|_|  |__/|__/ \___//_.___/ \____//___/   
+       /____/                                                       
+       
+nginxWebUI 3.4.8
+
+INFO  2023-06-30 23:25:54.771 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=5332ms pid=9084 v=2.2.7
+ERROR 2023-06-30 23:29:00.370 [-XNIO-1 task-3][*][o.s.o.w.WindowsOperatingSystem]: 
+AdjustTokenPrivileges failed. Error: 1300
+WARN  2023-06-30 23:30:03.874 [-HikariPool-1 housekeeper][*][c.z.h.p.HikariPool]: 
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s389ms539µs300ns).
+ERROR 2023-06-30 23:30:15.164 [-XNIO-1 task-4][*][c.c.s.u.JdbcTemplate]: 
+HikariPool-1 - Connection is not available, request timed out after 43863ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 43863ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at cn.hutool.db.ThreadLocalConnection$GroupedConnection.get(ThreadLocalConnection.java:75)
+	at cn.hutool.db.ThreadLocalConnection.get(ThreadLocalConnection.java:35)
+	at cn.hutool.db.Db.getConnection(Db.java:129)
+	at cn.hutool.db.AbstractDb.query(AbstractDb.java:171)
+	at cn.hutool.db.AbstractDb.query(AbstractDb.java:104)
+	at com.cym.sqlhelper.utils.JdbcTemplate.queryForList(JdbcTemplate.java:34)
+	at com.cym.sqlhelper.utils.SqlHelper.findOneByQuery(SqlHelper.java:512)
+	at com.cym.sqlhelper.utils.SqlHelper.findOneByQuery(SqlHelper.java:536)
+	at com.cym.service.SettingService.get(SettingService.java:28)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.noear.solon.core.wrap.MethodWrap.invoke(MethodWrap.java:197)
+	at org.noear.solon.core.wrap.MethodWrap.doIntercept(MethodWrap.java:189)
+	at org.noear.solon.core.aspect.InterceptorEntity.doIntercept(InterceptorEntity.java:34)
+	at org.noear.solon.core.aspect.Invocation.invoke(Invocation.java:78)
+	at org.noear.solon.core.wrap.MethodWrap.invokeByAspect(MethodWrap.java:213)
+	at org.noear.solon.proxy.BeanInvocationHandler.invoke(BeanInvocationHandler.java:65)
+	at com.cym.service.SettingService$$SolonAsmProxy.invokeInvocationHandler(Unknown Source)
+	at com.cym.service.SettingService$$SolonAsmProxy.get(Unknown Source)
+	at com.cym.config.AppFilter.frontInterceptor(AppFilter.java:236)
+	at com.cym.config.AppFilter.doFilter(AppFilter.java:75)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:24)
+	at org.noear.solon.logging.integration.XPluginImp.lambda$start$1(XPluginImp.java:54)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:24)
+	at org.noear.solon.core.ChainManager.doFilter(ChainManager.java:37)
+	at org.noear.solon.SolonApp.tryHandle(SolonApp.java:386)
+	at org.noear.solon.web.servlet.SolonServletHandler.service(SolonServletHandler.java:31)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:79)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:79)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:2019)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1558)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1423)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR 2023-06-30 23:30:15.170 [-XNIO-1 task-4][*][com.cym.NginxWebUI]: 
+HikariPool-1 - Connection is not available, request timed out after 43863ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 43863ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at cn.hutool.db.ThreadLocalConnection$GroupedConnection.get(ThreadLocalConnection.java:75)
+	at cn.hutool.db.ThreadLocalConnection.get(ThreadLocalConnection.java:35)
+	at cn.hutool.db.Db.getConnection(Db.java:129)
+	at cn.hutool.db.AbstractDb.query(AbstractDb.java:171)
+	at cn.hutool.db.AbstractDb.query(AbstractDb.java:104)
+	at com.cym.sqlhelper.utils.JdbcTemplate.queryForList(JdbcTemplate.java:34)
+	at com.cym.sqlhelper.utils.SqlHelper.findOneByQuery(SqlHelper.java:512)
+	at com.cym.sqlhelper.utils.SqlHelper.findOneByQuery(SqlHelper.java:536)
+	at com.cym.service.SettingService.get(SettingService.java:28)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.noear.solon.core.wrap.MethodWrap.invoke(MethodWrap.java:197)
+	at org.noear.solon.core.wrap.MethodWrap.doIntercept(MethodWrap.java:189)
+	at org.noear.solon.core.aspect.InterceptorEntity.doIntercept(InterceptorEntity.java:34)
+	at org.noear.solon.core.aspect.Invocation.invoke(Invocation.java:78)
+	at org.noear.solon.core.wrap.MethodWrap.invokeByAspect(MethodWrap.java:213)
+	at org.noear.solon.proxy.BeanInvocationHandler.invoke(BeanInvocationHandler.java:65)
+	at com.cym.service.SettingService$$SolonAsmProxy.invokeInvocationHandler(Unknown Source)
+	at com.cym.service.SettingService$$SolonAsmProxy.get(Unknown Source)
+	at com.cym.config.AppFilter.frontInterceptor(AppFilter.java:236)
+	at com.cym.config.AppFilter.doFilter(AppFilter.java:75)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:24)
+	at org.noear.solon.logging.integration.XPluginImp.lambda$start$1(XPluginImp.java:54)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:24)
+	at org.noear.solon.core.ChainManager.doFilter(ChainManager.java:37)
+	at org.noear.solon.SolonApp.tryHandle(SolonApp.java:386)
+	at org.noear.solon.web.servlet.SolonServletHandler.service(SolonServletHandler.java:31)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:79)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:79)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:2019)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1558)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1423)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.lang.Thread.run(Thread.java:748)
+INFO  2023-06-30 23:36:09.512 [-Thread-5][*][o.noear.solon.Solon]: 
+Server:main: undertow: Has Stopped undertow 2.1/2.2.7
