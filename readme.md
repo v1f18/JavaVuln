@@ -2,11 +2,17 @@
 
 包含了我复现漏洞时使用的环境和具体代码
 
-- nginWebUI
+[nginWebUI](nginWebUI)
+
+[log4j2](log4j2)
+
+
+
+- <a name="nginWebUI">nginWebUI</a>
 
   nginxWebUI-3.4.8-runCmd漏洞
 
-- log4j2
+- <a name="log4j2">log4j2</a>
 
   漏洞调用链
 
@@ -26,7 +32,6 @@
   
   ```
 
-  \- [部署说明](#deployment)
 
 
 
@@ -63,5 +68,3 @@
 
 
 
-
-\## 部署说明 <a name="deployment"></a>
